@@ -1,0 +1,19 @@
+TetrisExtension v0.1 - Initial release
+
+====================================================================
+
+TetrisExtension v0.2
+
+--------------------------------------------------
+
+	- New method for Integer and Block board:
+		
+			ClearFullRows() - Finds and removes full rows, slides down the rows above cleared rows.
+			
+	- Removed methods:
+	
+			GetFullRows() - Obsolete.
+			
+			RemoveRow() - Obsolete.
+			
+====================================================================

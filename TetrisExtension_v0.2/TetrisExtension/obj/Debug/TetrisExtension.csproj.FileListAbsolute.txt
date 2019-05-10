@@ -1,0 +1,12 @@
+C:\Users\ProphetBarnabas\source\repos\TetrisExtension\TetrisExtension\bin\Debug\TetrisExtension.dll
+C:\Users\ProphetBarnabas\source\repos\TetrisExtension\TetrisExtension\bin\Debug\TetrisExtension.pdb
+C:\Users\ProphetBarnabas\source\repos\TetrisExtension\TetrisExtension\obj\Debug\TetrisExtension.csprojAssemblyReference.cache
+C:\Users\ProphetBarnabas\source\repos\TetrisExtension\TetrisExtension\obj\Debug\TetrisExtension.csproj.CoreCompileInputs.cache
+C:\Users\ProphetBarnabas\source\repos\TetrisExtension\TetrisExtension\obj\Debug\TetrisExtension.dll
+C:\Users\ProphetBarnabas\source\repos\TetrisExtension\TetrisExtension\obj\Debug\TetrisExtension.pdb
+C:\Users\ProphetBarnabas\Documents\GitHub\TetrisExtension\TetrisExtension\TetrisExtension\bin\Debug\TetrisExtension.dll
+C:\Users\ProphetBarnabas\Documents\GitHub\TetrisExtension\TetrisExtension\TetrisExtension\bin\Debug\TetrisExtension.pdb
+C:\Users\ProphetBarnabas\Documents\GitHub\TetrisExtension\TetrisExtension\TetrisExtension\obj\Debug\TetrisExtension.csprojAssemblyReference.cache
+C:\Users\ProphetBarnabas\Documents\GitHub\TetrisExtension\TetrisExtension\TetrisExtension\obj\Debug\TetrisExtension.csproj.CoreCompileInputs.cache
+C:\Users\ProphetBarnabas\Documents\GitHub\TetrisExtension\TetrisExtension\TetrisExtension\obj\Debug\TetrisExtension.dll
+C:\Users\ProphetBarnabas\Documents\GitHub\TetrisExtension\TetrisExtension\TetrisExtension\obj\Debug\TetrisExtension.pdb
