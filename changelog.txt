@@ -17,3 +17,101 @@ TetrisExtension v0.2
 			RemoveRow() - Obsolete.
 			
 ====================================================================
+
+TetrisExtension v0.3
+
+--------------------------------------------------
+
+	- Namespace rearrangements:
+	
+	
+			TetrisExtension namespace added - Contains TickSystem and Networking namespaces, Board class, Block class,  BlockColor enum and BlockProperties enum
+			
+			GameBoard namespace removed - Obsolete.
+			
+			Object namespace removed - Obsolete.
+			
+	
+	- New classes:
+	
+	
+		Block - Replaces ObjectPart class
+		
+			New parameters:
+			
+				- BlockColor Color
+				
+				- BlockProperties[] Properties					
+		
+			New methods:
+			
+				- SetColor(BlockColor newColor) - Modifies block color and value
+				
+				- SetBlockProperties(params BlockProperties newProperties) - Modifies(overwrites) block properties
+		
+		Board - Replaces BlockBoard and IntegerBoard
+		
+			New parameters:
+			
+				- Block[,] CurrentBoard
+				
+			New methods:
+			
+				- SetBlock(Block newBlock) - Replaces a block with the specified block.
+				
+				- MoveObjectParts(int newX_pos, int newY_pos) - Moves all blocks with BlockProperties.PartOfMovingObject property
+			
+				- SetNewBoard(Block[,] newBoard) - Replaces the CurrentBoard with the specified Block matrix
+				
+		
+	- New enums:
+		
+			
+		BlockColor - Defines Color and Value block parameters
+			
+			Possible values:
+					
+				- Grey = 0
+				
+				- Yellow = 1;
+				
+				- Purple = 2;
+				
+				- Blue = 3;
+				
+				- Orange = 4;
+				
+				- Green = 5;
+				
+				- Red = 6;
+				
+				- LightBlue = 7;
+				
+		
+		BlockProperties - Defines BlockProperties[] parameter
+				
+				Possible values:
+				
+					- PartOfMovingObject
+					
+					- RotationPoint
+				
+				
+	- FrameConverter rewrite:
+	
+	
+		ConvertFrameToIntegerBoard() removed - Unused.
+		
+		ConvertFrameToBlockBoard() removed - Unused.
+				
+		ConvertBoardToFrame() optimized
+		
+		ConvertFrameToBoard(byte[] frameToConvert) added, returns Board 
+				
+====================================================================		
+				
+				
+				
+			
+			
+			
