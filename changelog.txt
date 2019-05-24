@@ -108,10 +108,24 @@ TetrisExtension v0.3
 		
 		ConvertFrameToBoard(byte[] frameToConvert) added, returns Board 
 				
-====================================================================		
-				
-				
-				
-			
-			
-			
+====================================================================
+
+TetrisExtension v0.3.1
+
+--------------------------------------------------		
+
+	- New method for block class:
+
+		AddBlockProperties(paras BlockProperties[] newProperties)
+
+
+	- MoveObjectParts() - Added collision with other blocks
+
+
+	- Fixes:
+
+		MoveObjectParts() can move blocks horizontally
+
+		MoveObjectParts() no longer throws exception when trying to move out of bounds (does not move instead)
+
+	
